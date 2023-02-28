@@ -5,7 +5,7 @@ import data from './data.json';
 class Main extends React.Component {
     render() {
         return (
-            <>
+            <div className="beast-container">
                 {data.map(beast => 
                     <HornedBeast 
                         key={beast._id}
@@ -15,7 +15,7 @@ class Main extends React.Component {
                         alt={beast.keyword}
                     />
                 )}
-            </>
+            </div>
         );
     }
 }

@@ -1,3 +1,35 @@
 body {
   background-color: beige;
 }
+
+img {
+  max-width: 300px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.beast {
+  max-width: 300px;
+}
+
+.beast h2 {
+  text-align: center;
+}
+
+.beast-container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0;
+}
