@@ -1,3 +1,55 @@
 body {
   background-color: beige;
 }
+
+img {
+  max-width: 300px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 50px;
+}
+
+.beast {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid rgb(139, 125, 99);
+  padding: 0 30px 30px 30px;
+  margin-bottom: 50px;
+}
+
+.beast h2 {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.rainbow {
+  color: white;
+  animation: rainbowFlash 4s infinite;
+}
+
+@keyframes rainbowFlash {
+  0% { background-color: red; }
+  10% { background-color: rgb(255, 94, 0); }
+  20% { background-color: rgb(255, 183, 0); }
+  30% { background-color: rgb(255, 255, 0); }
+  40% { background-color: rgb(64, 255, 0); }
+  50% { background-color: rgb(0, 255, 132); }
+  60% { background-color: rgb(0, 221, 255); }
+  70% { background-color: rgb(0, 30, 255); }
+  80% { background-color: rgb(179, 0, 255); }
+  90% { background-color: rgb(255, 0, 200); }
+  100% { background-color: rgb(255, 0, 102); }
+}
