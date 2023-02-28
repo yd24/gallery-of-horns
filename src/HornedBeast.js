@@ -1,4 +1,5 @@
 import React from 'react';
+import Col from 'react-bootstrap/Col';
 
 class HornedBeast extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class HornedBeast extends React.Component {
 
     render() {
         return(
-            <div className="beast">
+            <Col className="beast">
                 <h2>{this.props.title}</h2>
                 <img 
                     src={this.props.imageUrl}
@@ -26,7 +27,7 @@ class HornedBeast extends React.Component {
                 />
                 <p>{this.props.description}</p>
                 <p>❤️ {this.state.favorites} favorites</p>
-            </div>
+            </Col>
         );
     }
 }
