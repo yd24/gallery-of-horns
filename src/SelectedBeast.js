@@ -13,17 +13,17 @@ class SelectedBeast extends React.Component {
                 centered
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>{this.props.beastInfo.title}</Modal.Title>
+                    <Modal.Title>{this.props.selectedBeast.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="center-modal">
                         <img 
                             className="full-img"
-                            src={this.props.beastInfo.src}
-                            alt={this.props.beastInfo.alt}
+                            src={this.props.selectedBeast.src}
+                            alt={this.props.selectedBeast.alt}
                         />
                 </Modal.Body>
                 <Modal.Footer className="justify-content-center modal-desc">
-                    <p>{this.props.beastInfo.description}</p>
+                    <p>{this.props.selectedBeast.description}</p>
                 </Modal.Footer>
             </Modal>
        ); 
