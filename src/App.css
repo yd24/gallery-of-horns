@@ -30,6 +30,26 @@ h1 {
   padding: 10px;
 }
 
+.fav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-modal {
+  text-align: center;
+}
+
+.modal-desc {
+  color: white;
+  background-color: rgb(215, 155, 27);
+  font-weight: bold;
+  padding: 20px;
+}
+
+.full-img {
+  max-width: 100%;
+}
+
 footer {
   text-align: center;
   margin: 50px 0;
