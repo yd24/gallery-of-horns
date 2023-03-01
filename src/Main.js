@@ -8,7 +8,7 @@ class Main extends React.Component {
     render() {
         return (
             <Container>
-                <Row md={3} lg={4}>
+                <Row className="justify-content-center gap-4">
                     {data.map((beast) =>
                         <HornedBeast 
                             key={beast._id}
