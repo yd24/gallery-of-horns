@@ -1,6 +1,5 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import SelectedBeast from './SelectedBeast';
 
@@ -23,11 +22,9 @@ class Main extends React.Component {
 
         return (
             <>
-                <Container>
-                    <Row className="justify-content-center gap-4">
-                        {hornedBeasts}
-                    </Row>
-                </Container>
+                <Row className="justify-content-center gap-4">
+                    {hornedBeasts}
+                </Row>
                 <SelectedBeast 
                     selectedBeast={this.props.selectedBeast}
                     showModal={this.props.showModal}
