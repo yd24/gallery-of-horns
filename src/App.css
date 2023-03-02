@@ -17,6 +17,10 @@ h1 {
   padding-bottom: 50px;
 }
 
+.ellipsis {
+  text-overflow: ellipsis;
+}
+
 .search {
   padding-top: 20px;
   padding-bottom: 50px;
