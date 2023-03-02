@@ -5,10 +5,10 @@ import Row from 'react-bootstrap/Row';
 import SelectedBeast from './SelectedBeast';
 
 class Main extends React.Component {
-    displayHornedBeasts = () => {
-        let ele = (<p className="no-result">No results found!</p>);
-        if (this.props.beasts.length > 0) {
-            ele = this.props.beasts.map((beast) =>
+
+    render() {
+        const hornedBeasts = this.props.beasts.length > 0 ?
+            this.props.beasts.map((beast) =>
                 <HornedBeast 
                     key={beast._id}
                     title={beast.title}
@@ -18,17 +18,14 @@ class Main extends React.Component {
                     showModal={this.props.showModal}
                     handleShow={this.props.handleShow}
                 />
-            );
-        }
-        return ele;
-    };
+            ) :
+            (<p className="no-result">No results found!</p>);
 
-    render() {
         return (
             <>
                 <Container>
                     <Row className="justify-content-center gap-4">
-                        {this.displayHornedBeasts()}
+                        {hornedBeasts}
                     </Row>
                 </Container>
                 <SelectedBeast 
