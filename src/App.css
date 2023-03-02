@@ -8,9 +8,23 @@ img {
 }
 
 h1 {
+  color: white;
+  background-color: rgb(27, 109, 215);
   text-align: center;
   margin-bottom: 20px;
   cursor: pointer;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.search {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.no-result {
+  font-size: 36px;
+  text-align: center;
   padding: 50px;
 }
 
@@ -28,6 +42,31 @@ h1 {
   text-align: center;
   cursor: pointer;
   padding: 10px;
+}
+
+.fav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fav span {
+  font-size: 18px;
+}
+
+.center-modal {
+  text-align: center;
+}
+
+.modal-desc {
+  color: white;
+  background-color: rgb(27, 109, 215);
+  font-weight: bold;
+  padding: 20px;
+}
+
+.full-img {
+  max-width: 100%;
 }
 
 footer {
