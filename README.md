@@ -65,3 +65,18 @@ A website that displays a gallery of horned beasts.
 * Finish time: 3:54pm
 
 * Actual time needed to complete:  **1 hour and 20 minutes**
+
+**Feature #5 - Filter By Number of Horns**
+
+* Estimate for how long this will take?
+    * 1 hour.
+
+* How long did it actually take?
+    * Start: 12:15pm
+    * End: 2:43pm
+    * Actual time: **2 hours and 38 minutes.**
+
+* What factors affected how long it took?
+    * Scope creep. I decided to add a sort feature for additional practice and developed it concurrently with the filter feature as I didn’t expect the sort feature to take too long.  
+    However, I ran into issues with syncing up the state after filtering, sorting, and searching. The majority of the time was spent trying to figure out how to keep the state synced up.  
+    I should have built out the filter feature first once I ran into issues, then try to hook up the sort feature later.
