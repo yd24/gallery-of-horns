@@ -3,7 +3,7 @@
 ***
 A website that displays a gallery of horned beasts.
 
-## Lab 2 - Features Time Estimates
+## Features Time Estimates
 ***
 **Feature #1: Display Images**
 
@@ -44,3 +44,24 @@ A website that displays a gallery of horned beasts.
 * Finish time: 3:23
 
 * Actual time needed to complete: **22 minutes**
+
+**Feature #4 - Display a Modal**
+
+* Estimate of time needed to complete: 45 minutes
+
+* Start time: 1:33pm
+
+* Finish time: 2:33pm
+
+* Actual time needed to complete:  **1 hour**
+
+
+**Stretch Goal - Fuzzy Search**
+
+* Estimate of time needed to complete:  1 hour
+
+* Start time:  2:34pm
+
+* Finish time: 3:54pm
+
+* Actual time needed to complete:  **1 hour and 20 minutes**
