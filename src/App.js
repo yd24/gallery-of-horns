@@ -64,7 +64,7 @@ class App extends React.Component {
     processedBeasts = this.filterBeasts(processedBeasts, this.state.query);
     processedBeasts = this.filterBeastsByHorns(processedBeasts, this.state.numHorns);
     this.sortBeasts(processedBeasts, this.state.sortMethod);
-    console.log(processedBeasts);
+    
     this.setState({
       beasts: processedBeasts
     });
